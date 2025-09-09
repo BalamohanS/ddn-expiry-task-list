@@ -1,1 +1,198 @@
 SGS and CAD workflow
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="white"/>
+  
+  <text x="600" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="black">Integrated Collateral Management System - Data Flow</text>
+  
+  <!-- INPUT SECTION -->
+  <rect x="20" y="50" width="280" height="600" fill="#e8f5e8" stroke="#4CAF50" stroke-width="1" rx="5"/>
+  <text x="160" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#2e7d32">DATA INPUT</text>
+  
+  <text x="35" y="100" font-size="10" font-weight="bold" fill="#2e7d32">Manual Input:</text>
+  <rect x="35" y="110" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="122" text-anchor="middle" font-size="8" fill="#2e7d32">CB and IntraGroup Customer Data</text>
+  
+  <rect x="35" y="135" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="147" text-anchor="middle" font-size="8" fill="#2e7d32">Stock Grade and Issued Shares</text>
+  
+  <rect x="35" y="160" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="172" text-anchor="middle" font-size="8" fill="#2e7d32">Industry Cap and Mapping Data</text>
+  
+  <rect x="35" y="185" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="197" text-anchor="middle" font-size="8" fill="#2e7d32">CR and FI Product Lists</text>
+  
+  <text x="35" y="225" font-size="10" font-weight="bold" fill="#2e7d32">Automated Feeds:</text>
+  <rect x="35" y="235" width="120" height="18" fill="#a5d6a7" rx="2"/>
+  <text x="95" y="247" text-anchor="middle" font-size="8" fill="#2e7d32">HKSE Data</text>
+  
+  <rect x="165" y="235" width="120" height="18" fill="#a5d6a7" rx="2"/>
+  <text x="225" y="247" text-anchor="middle" font-size="8" fill="#2e7d32">Market Data</text>
+  
+  <rect x="35" y="260" width="120" height="18" fill="#a5d6a7" rx="2"/>
+  <text x="95" y="272" text-anchor="middle" font-size="8" fill="#2e7d32">Price Volatility</text>
+  
+  <rect x="165" y="260" width="120" height="18" fill="#a5d6a7" rx="2"/>
+  <text x="225" y="272" text-anchor="middle" font-size="8" fill="#2e7d32">Trading Volume</text>
+  
+  <rect x="35" y="285" width="250" height="18" fill="#a5d6a7" rx="2"/>
+  <text x="160" y="297" text-anchor="middle" font-size="8" fill="#2e7d32">Market Capitalization</text>
+  
+  <text x="35" y="320" font-size="10" font-weight="bold" fill="#2e7d32">File Processing:</text>
+  <rect x="35" y="330" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="342" text-anchor="middle" font-size="8" fill="#2e7d32">Email Attachments</text>
+  
+  <rect x="35" y="355" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="367" text-anchor="middle" font-size="8" fill="#2e7d32">Excel Workbooks</text>
+  
+  <rect x="35" y="380" width="250" height="18" fill="#c8e6c9" rx="2"/>
+  <text x="160" y="392" text-anchor="middle" font-size="8" fill="#2e7d32">Clearance Register Data</text>
+  
+  <!-- PROCESSING SECTION -->
+  <rect x="320" y="50" width="360" height="600" fill="#e3f2fd" stroke="#2196F3" stroke-width="1" rx="5"/>
+  <text x="500" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#1565c0">PROCESSING ENGINE</text>
+  
+  <rect x="335" y="100" width="330" height="40" fill="#bbdefb" stroke="#2196F3" rx="3"/>
+  <text x="500" y="115" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">Calculate Stock Grade Module</text>
+  <text x="500" y="130" text-anchor="middle" font-size="7" fill="#1565c0">Stock grading by smallest PVF Market Cap Average Daily Turnover</text>
+  
+  <rect x="335" y="150" width="330" height="35" fill="#bbdefb" stroke="#2196F3" rx="3"/>
+  <text x="500" y="165" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">Stock Maintenance Module</text>
+  <text x="500" y="178" text-anchor="middle" font-size="7" fill="#1565c0">Maintenance and update of constituent stock</text>
+  
+  <rect x="335" y="195" width="330" height="40" fill="#bbdefb" stroke="#2196F3" rx="3"/>
+  <text x="500" y="210" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">Routine Adhoc MSL Generation</text>
+  <text x="500" y="225" text-anchor="middle" font-size="7" fill="#1565c0">Users can manually generate MSL quarterly or ad hoc basis</text>
+  
+  <rect x="335" y="245" width="330" height="35" fill="#bbdefb" stroke="#2196F3" rx="3"/>
+  <text x="500" y="260" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">Reports Module</text>
+  <text x="500" y="273" text-anchor="middle" font-size="7" fill="#1565c0">Download stock grading and MSL reports in excel format</text>
+  
+  <rect x="335" y="290" width="330" height="70" fill="#fff3e0" stroke="#FF9800" rx="3"/>
+  <text x="500" y="305" text-anchor="middle" font-size="9" font-weight="bold" fill="#e65100">CR and FI Consolidation Workflow</text>
+  
+  <rect x="355" y="320" width="100" height="18" fill="#ffe0b2" rx="2"/>
+  <text x="405" y="332" text-anchor="middle" font-size="7" fill="#e65100">Submit for Approval</text>
+  
+  <polygon points="480,329 495,334 480,339 465,334" fill="#64B5F6" stroke="#2196F3"/>
+  <text x="480" y="337" text-anchor="middle" font-size="6" fill="#1565c0">Approve</text>
+  
+  <rect x="510" y="320" width="50" height="15" fill="#c8e6c9" rx="2"/>
+  <text x="535" y="330" text-anchor="middle" font-size="6" fill="#2e7d32">Approve</text>
+  
+  <rect x="570" y="320" width="60" height="15" fill="#c8e6c9" rx="2"/>
+  <text x="600" y="330" text-anchor="middle" font-size="6" fill="#2e7d32">Update</text>
+  
+  <rect x="355" y="340" width="100" height="15" fill="#ffcdd2" rx="2"/>
+  <text x="405" y="350" text-anchor="middle" font-size="6" fill="#c62828">Reject Send Back</text>
+  
+  <rect x="335" y="370" width="330" height="60" fill="#bbdefb" stroke="#2196F3" rx="3"/>
+  <text x="500" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#1565c0">Industry Cap and Mapping Data Maintenance</text>
+  
+  <rect x="350" y="395" width="130" height="15" fill="#90caf9" rx="2"/>
+  <text x="415" y="405" text-anchor="middle" font-size="6" fill="#0d47a1">Stock Grade and Issued Shares</text>
+  
+  <rect x="490" y="395" width="130" height="15" fill="#90caf9" rx="2"/>
+  <text x="555" y="405" text-anchor="middle" font-size="6" fill="#0d47a1">Generate Reports</text>
+  
+  <rect x="350" y="415" width="130" height="15" fill="#90caf9" rx="2"/>
+  <text x="415" y="425" text-anchor="middle" font-size="6" fill="#0d47a1">CB and IntraGroup Consolidation</text>
+  
+  <rect x="490" y="415" width="130" height="15" fill="#90caf9" rx="2"/>
+  <text x="555" y="425" text-anchor="middle" font-size="6" fill="#0d47a1">CL Clearance Register</text>
+  
+  <!-- OUTPUT SECTION -->
+  <rect x="700" y="50" width="480" height="600" fill="#f3e5f5" stroke="#9C27B0" stroke-width="1" rx="5"/>
+  <text x="940" y="75" text-anchor="middle" font-size="12" font-weight="bold" fill="#7b1fa2">DATA OUTPUT</text>
+  
+  <text x="720" y="100" font-size="9" font-weight="bold" fill="#7b1fa2">SGS System Reports:</text>
+  <rect x="720" y="110" width="440" height="18" fill="#e1bee7" rx="2"/>
+  <text x="940" y="122" text-anchor="middle" font-size="8" fill="#7b1fa2">Stock Grading and MSL Reports Excel Format</text>
+  
+  <text x="720" y="145" font-size="9" font-weight="bold" fill="#7b1fa2">STKHC System Reports:</text>
+  <rect x="720" y="155" width="210" height="16" fill="#e1bee7" rx="2"/>
+  <text x="825" y="165" text-anchor="middle" font-size="7" fill="#7b1fa2">Holding Report</text>
+  
+  <rect x="940" y="155" width="220" height="16" fill="#e1bee7" rx="2"/>
+  <text x="1050" y="165" text-anchor="middle" font-size="7" fill="#7b1fa2">Concentration Report</text>
+  
+  <rect x="720" y="175" width="210" height="16" fill="#e1bee7" rx="2"/>
+  <text x="825" y="185" text-anchor="middle" font-size="7" fill="#7b1fa2">Hard Capped Stock</text>
+  
+  <rect x="940" y="175" width="220" height="16" fill="#e1bee7" rx="2"/>
+  <text x="1050" y="185" text-anchor="middle" font-size="7" fill="#7b1fa2">Industry Mapping</text>
+  
+  <rect x="720" y="195" width="210" height="16" fill="#e1bee7" rx="2"/>
+  <text x="825" y="205" text-anchor="middle" font-size="7" fill="#7b1fa2">Industry Cap FSV Percentage</text>
+  
+  <rect x="940" y="195" width="220" height="16" fill="#e1bee7" rx="2"/>
+  <text x="1050" y="205" text-anchor="middle" font-size="7" fill="#7b1fa2">Breach Alert Reports</text>
+  
+  <rect x="720" y="215" width="210" height="16" fill="#e1bee7" rx="2"/>
+  <text x="825" y="225" text-anchor="middle" font-size="7" fill="#7b1fa2">Stock Grade Exception</text>
+  
+  <rect x="940" y="215" width="220" height="16" fill="#e1bee7" rx="2"/>
+  <text x="1050" y="225" text-anchor="middle" font-size="7" fill="#7b1fa2">Audit Trail Report</text>
+  
+  <text x="720" y="250" font-size="9" font-weight="bold" fill="#7b1fa2">LER System Reports:</text>
+  <rect x="720" y="260" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="270" text-anchor="middle" font-size="8" fill="#7b1fa2">CR and FI Consolidated Reports</text>
+  
+  <rect x="720" y="280" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="290" text-anchor="middle" font-size="8" fill="#7b1fa2">Clearance Register Reports</text>
+  
+  <rect x="720" y="300" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="310" text-anchor="middle" font-size="8" fill="#7b1fa2">Workbook Comparison Reports</text>
+  
+  <text x="720" y="335" font-size="9" font-weight="bold" fill="#7b1fa2">CL System Reports:</text>
+  <rect x="720" y="345" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="355" text-anchor="middle" font-size="8" fill="#7b1fa2">CB and IntraGroup Exposures Summary</text>
+  
+  <rect x="720" y="365" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="375" text-anchor="middle" font-size="8" fill="#7b1fa2">Connected Party Aggregation Reports</text>
+  
+  <text x="720" y="400" font-size="9" font-weight="bold" fill="#7b1fa2">External Integration:</text>
+  <rect x="720" y="410" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="420" text-anchor="middle" font-size="8" fill="#7b1fa2">Credit Limit File to CAD Application</text>
+  
+  <text x="720" y="445" font-size="9" font-weight="bold" fill="#7b1fa2">Regulatory Outputs:</text>
+  <rect x="720" y="455" width="210" height="16" fill="#d1c4e9" rx="2"/>
+  <text x="825" y="465" text-anchor="middle" font-size="7" fill="#7b1fa2">HK CRC Submissions</text>
+  
+  <rect x="940" y="455" width="220" height="16" fill="#d1c4e9" rx="2"/>
+  <text x="1050" y="465" text-anchor="middle" font-size="7" fill="#7b1fa2">RM Review Reports</text>
+  
+  <rect x="720" y="475" width="210" height="16" fill="#d1c4e9" rx="2"/>
+  <text x="825" y="485" text-anchor="middle" font-size="7" fill="#7b1fa2">Approval Panel Reports</text>
+  
+  <rect x="940" y="475" width="220" height="16" fill="#d1c4e9" rx="2"/>
+  <text x="1050" y="485" text-anchor="middle" font-size="7" fill="#7b1fa2">Risk Monitoring</text>
+  
+  <rect x="720" y="495" width="440" height="16" fill="#d1c4e9" rx="2"/>
+  <text x="940" y="505" text-anchor="middle" font-size="8" fill="#7b1fa2">Quarterly Monthly Regulatory Submissions</text>
+  
+  <text x="720" y="530" font-size="9" font-weight="bold" fill="#7b1fa2">Archive and Backup:</text>
+  <rect x="720" y="540" width="210" height="16" fill="#e1bee7" rx="2"/>
+  <text x="825" y="550" text-anchor="middle" font-size="7" fill="#7b1fa2">Historical Archive</text>
+  
+  <rect x="940" y="540" width="220" height="16" fill="#e1bee7" rx="2"/>
+  <text x="1050" y="550" text-anchor="middle" font-size="7" fill="#7b1fa2">Version Control</text>
+  
+  <rect x="720" y="560" width="440" height="16" fill="#e1bee7" rx="2"/>
+  <text x="940" y="570" text-anchor="middle" font-size="8" fill="#7b1fa2">Workbook Templates and Master Lists</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <line x1="300" y1="250" x2="320" y2="250" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <line x1="680" y1="300" x2="700" y2="300" stroke="#2196F3" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <path d="M 355 348 Q 280 380 280 200" stroke="#f44336" stroke-width="1" fill="none" stroke-dasharray="3,3" marker-end="url(#arrow)"/>
+  
+  <rect x="20" y="665" width="1160" height="30" fill="#f8f9fa" stroke="#ddd" rx="3"/>
+  <text x="30" y="680" font-size="9" font-weight="bold" fill="#333">Benefits: Single Data Entry - Unified Workflow - Automated Processing - Comprehensive Reporting - Real-time Integration - Regulatory Compliance</text>
+</svg>
